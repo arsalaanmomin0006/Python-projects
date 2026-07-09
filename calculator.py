@@ -10,7 +10,7 @@ while True:
     elif operation == "*":
         print(F_n * S_n)
     elif operation == "/":
-        if S_n == "0":
+        if S_n == 0:
             print("Cannot divide by zero")
         else:
             print(F_n / S_n)
